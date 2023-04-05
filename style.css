@@ -34,7 +34,7 @@ h3 {
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   color: var(--secondary-text-color);
   line-height: 1.8rem;
 }
@@ -67,10 +67,13 @@ a {
 .main-nav {
   justify-content: space-between;
   margin-top: 20px;
+  align-items: center;
 }
 
 .nav-links {
   flex-basis: 730px;
+  align-items: center;
+  gap: 20px;
 }
 
 .nav-links ul {
@@ -116,7 +119,7 @@ a {
 }
 
 .company-logo-img {
-  width: 80px;
+  width: 100px;
   height: 50px;
 }
 
@@ -129,48 +132,107 @@ a {
   margin-top: 80px;
 }
 
+.feature-img img{
+  width: 60px;
+}
+
 .allfeature {
   padding-top: 40px;
   text-align: center;
 }
 
-.features{
-    flex-wrap: wrap;
+.features {
+  flex-wrap: wrap;
 }
 
-.feature_box{
+.feature_box {
   margin: 30px 10px;
   width: 300px;
 }
 
 /* big feature 1 section */
 
-.bigFeature-section{
+.bigFeature-section {
   margin-top: 80px;
+  gap: 40px;
 }
 
-.girl_img img{
-  width: 500px;
+.bigFeature_content{
+  flex-direction: column;   
 }
 
-.bigFeature-content{
-  align-items: start;
+.girl_img img {
+  width: 100%;
+}
+
+.marketers_img img {
+  width: 100%;
+}
+
+.productManager img{
+    width: 100%; 
+}
+
+.bigFeature_content img{  /* the economist group */
+    width: 120px;
 }
 
 /* example section */
 
-.examplePhotos{
+.examplebar{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.example-section{
+  margin-top: 80px;
+}
+
+.examplePhotos {
   margin-top: 20px;
   justify-content: space-evenly;
 }
 
-.examplePhotos img{
+.examplePhotos img {
   width: 200px;
 }
 
 /* cta section */
-.cta-section{
+.cta-section {
+  margin-top: 40px;
   background-color: var(--primary-text-color);
+}
+
+.cta-content{
+  margin-top: 50px;
+}
+
+.cta-section h2{
+  color: white;
+}
+
+.cta-section P{
+  padding: 15px 0;;
+}
+
+.cta-img img{
+  width: 100%;
+}
+
+/* footer */
+footer{
+  margin-bottom: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer h1{
+  padding: 10px;
+}
+
+footer p{
+  padding-bottom: 20px;
 }
 
 /* utility classes */
@@ -192,7 +254,7 @@ ul {
 
 .flex {
   display: flex;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .hover-links {
